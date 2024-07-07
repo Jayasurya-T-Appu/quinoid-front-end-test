@@ -1,0 +1,89 @@
+.signin-page{
+    display: flex;
+}
+.signin-page__left_container{
+    height: 100vh;
+    width: 50vw;
+    background-image: url("../../assets/images/sign_in_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.clinical_logo{
+    
+    max-width:  346.49px;
+    position: absolute;
+    z-index: 10;
+}
+.signin-page__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(61, 59, 59, 0.5); 
+    mix-blend-mode: multiply;
+  }
+
+  .signin-page__right_container{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .signin-page__form_container{
+    width: 432px;
+    height: 416px;
+    /* border: 1px solid green; */
+  }
+
+  .signin-page__title{
+    margin-bottom: 40px;
+  }
+
+  .signin-page__input_group{
+    display: flex;
+    flex-direction: column;
+  }
+  .signin-page__input_group label{
+    color: var(--text-color-1);
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .signin-page__input_group input {
+    font-size: 1rem;
+    color: var(--text-color-1);
+    border: none;
+    margin-bottom: 30px;
+  }
+  .signin-page__input_group input:focus{
+outline: none;
+  }
+
+  .signin-page__input_group select{
+    border: none;
+    font-size: 1rem;
+    color: var(--text-color-1);
+    margin-bottom: 40px;
+  }
+  .signin-page__button_wrapper p{
+    text-align: center;
+    margin-top: 10px;
+    color: var(--text-color-1);
+    } 
+    .signin-page__button_wrapper a{
+      text-decoration: none;
+      color: var(--text-color-1);
+      font-weight: 500;
+    }
+
+    .error{
+      color: red;
+    }

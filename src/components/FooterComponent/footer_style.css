@@ -1,0 +1,39 @@
+.test__footer{
+    position: absolute;
+    width: 100vw;
+    background-color: white;
+    bottom: 10px;
+    padding: 20px;
+}
+.test__socials_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+}
+.test__socials_container img{
+    width: 200px;
+}
+.test__social_logo{
+    width: 22px;
+    height: 21px;
+}
+.icon{
+    margin-right: 60px;
+}
+.test__copyright_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test__copyright_container p{
+    color: var(--text-color-1);
+}
+.divider{
+    
+    height: 15px;
+    background-color: gray;
+    width: 2px;;
+    margin: 0px 10px;
+}

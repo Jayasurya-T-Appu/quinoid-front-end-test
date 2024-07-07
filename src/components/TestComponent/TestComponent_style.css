@@ -1,0 +1,45 @@
+.test__main_wrapper{
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.test__question_container {
+    max-height: 100%;
+    width: 568px;
+    display: flex;
+    flex-direction: column;
+
+}
+.test__notepad{
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin-top: 20px;
+    outline: none;
+    color: var(--text-color-1);
+    font-size: 20px;
+}
+
+.test__notepad_container{
+    height: 465px;
+    width: 568px;
+    background-color: white;
+}
+.test__notepad_container p{
+    color: var(--text-color-1);
+    padding: 10px 0px;
+    border-bottom: 0.5px solid #99999980
+}
+.test__button_group{
+    display: flex;
+    
+
+}
+.alert_position{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}

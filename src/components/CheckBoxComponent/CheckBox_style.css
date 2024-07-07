@@ -1,0 +1,18 @@
+.checkbox__container{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+   
+}
+.checkbox__box{
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    margin-right: 20px;
+}
+.checked{
+    background-color: #2B7DF7;
+    border: none;
+}
