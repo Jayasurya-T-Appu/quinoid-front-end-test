@@ -6,7 +6,7 @@ import Alert from '../AlertComponent/Alert';
 const TestComponent = ({  data, answers, SetAnswers, setScribble,setTestStatus}) => {
    
     const [category_questions, SetCategoryQuestions] = useState(null)
-    const [questionNumber, setQuestionNumber] = useState(29)
+    const [questionNumber, setQuestionNumber] = useState(0)
     const [toggleAlert, setToggleAlert] = useState(false)
     
 
